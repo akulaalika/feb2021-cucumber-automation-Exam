@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 952895500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Cucumber project Page",
+            "match": {
+              "location": "BackgroundStepDefinitions.user_is_on_Cucumber_project_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1777806700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefinitions.beforeRun()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "user should be able to see SkyBlue Background on Clicking SkyBlue Background button",
+        "description": "",
+        "id": "sky-blue-background-validation-test;user-should-be-able-to-see-skyblue-background-on-clicking-skyblue-background-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45420100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "SkyBlue Background Button Exist",
+            "match": {
+              "location": "BackgroundStepDefinitions.skyblue_Background_Button_Exist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27837200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click SkyBlue Background boutton",
+            "match": {
+              "location": "BackgroundStepDefinitions.user_click_SkyBlue_Background_boutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2236609800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "BackgroundStepDefinitions.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 778839600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Cucumber project Page",
+            "match": {
+              "location": "BackgroundStepDefinitions.user_is_on_Cucumber_project_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1301469100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefinitions.beforeRun()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "White Background Change",
+        "description": "",
+        "id": "sky-blue-background-validation-test;white-background-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28096700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "White background button exist",
+            "match": {
+              "location": "BackgroundStepDefinitions.white_background_button_exist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25893300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the button",
+            "match": {
+              "location": "BackgroundStepDefinitions.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2241955900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "BackgroundStepDefinitions.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sky Blue Background Validation Test",
+    "description": "",
+    "id": "sky-blue-background-validation-test",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/BackgroundColor.feature"
+  }
+]
